@@ -62,12 +62,18 @@
     NSLog(@"CALLED JUMP");
     /* make sure he can't jump too high */
     CGRect playerRect = dude.boundingBox;
+    playerRect.size.height = 5;
+    
+
     CGRect groundRect = ground.boundingBox;
-    groundRect.size.height*=1.5;
+    groundRect.origin.y += (groundRect.size.height - 5);
+    groundRect.size.height = 60;
     if (CGRectIntersectsRect(playerRect, groundRect))
     {
-        [dude.physicsBody applyForce:ccp(0, 6000)];
+        [dude.physicsBody applyForce:ccp(0, 10000)];
     }
+
+
 }
 
 - (void) checkPosition
@@ -100,7 +106,8 @@
 - (void) freshGameCreate
 {
     NSLog(@"New Game Pressed");
-}
+    CCScene *firstLevel = [CCBReader loadAsScene:@"FirstLevel"];
+    [[CCDirector sharedDirector] replaceScene:firstLevel];}
 
 - (void) continueGameCreate
 {

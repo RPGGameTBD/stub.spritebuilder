@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D08481B18C7E37B00ED2488 /* LeftButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08481A18C7E37B00ED2488 /* LeftButton.m */; };
 		5D08481F18C7E38D00ED2488 /* RightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08481E18C7E38D00ED2488 /* RightButton.m */; };
+		7D2CE40518E2546800878AB6 /* FirstLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2CE40418E2546800878AB6 /* FirstLevel.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -61,6 +62,8 @@
 		5D08481A18C7E37B00ED2488 /* LeftButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftButton.m; sourceTree = "<group>"; };
 		5D08481D18C7E38D00ED2488 /* RightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightButton.h; sourceTree = "<group>"; };
 		5D08481E18C7E38D00ED2488 /* RightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightButton.m; sourceTree = "<group>"; };
+		7D2CE40318E2546800878AB6 /* FirstLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevel.h; sourceTree = "<group>"; };
+		7D2CE40418E2546800878AB6 /* FirstLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevel.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				5D08481E18C7E38D00ED2488 /* RightButton.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				7D2CE40318E2546800878AB6 /* FirstLevel.h */,
+				7D2CE40418E2546800878AB6 /* FirstLevel.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				5D08481F18C7E38D00ED2488 /* RightButton.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				7D2CE40518E2546800878AB6 /* FirstLevel.m in Sources */,
 				5D08481B18C7E37B00ED2488 /* LeftButton.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
